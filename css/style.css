@@ -1,0 +1,96 @@
+/* entire document */
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+
+/* header */
+
+header{
+  background-color: #444;
+  height: 100px;
+}
+
+header nav{
+  width: 960px;
+  margin: 0 auto;
+}
+
+header nav img{
+  margin-top: 15px;
+  float:left;
+  clear: both;
+}
+
+header nav span{
+  display: inline-block;
+  line-height: 100px;
+  margin-left: 90px;
+}
+
+ /* main */
+main{
+
+  width: 960px;
+  margin: 0 auto;
+}
+
+main img{
+  margin-top: 30px;
+}
+
+main li:first-child{
+  margin: 0;
+}
+
+main li{
+  margin-left: 30px;
+  float: left;
+
+}
+
+main article{
+  width: 50%;
+  float: right;
+  margin-top: 30px;
+}
+
+main h2{
+  font-size: 1.5em;
+  margin-left: 30px;
+}
+
+main p{
+  height: 330px;
+  overflow: auto;
+  margin-top: 5px;
+  margin-left: 30px;
+  font-style: italic;
+  line-height: 20px;
+}
+
+main div{
+  background-color: #111;
+  color: #eee;
+  margin-top:5px;
+  margin-left: 30px;
+  font-size: 1.2em;
+  display: inline-block;
+  padding: 10px 30px;
+}
+
+main div:hover{
+  background-color: red;
+  color: yellow;
+  transition-duration: 350ms;
+}
+ /* footer */
+
+ footer{
+   background-color: #444;
+   height: 125px;
+   margin-top: 30px;
+ }
+
+
+
